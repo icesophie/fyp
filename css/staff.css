@@ -1,0 +1,76 @@
+.staff form{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.staff table{
+    background-color: lightblue;
+    border-radius: 2px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+.staff th{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(236, 226, 113);
+    font-size: 16px;
+    padding: 10px;
+    
+}
+.staff td{
+    background-color: rgb(236, 226, 113);
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    
+}
+
+.staff input[type=text], input[type=date], input[type=time]{
+    width: 70%;
+    padding: 5px;
+    margin: 2px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.staff input[type=submit]{
+    background-color: green;
+    width: 20%;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+    opacity: 1.0;
+}
+.staff [type=reset]{
+    background-color: red;
+    width: 20%;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+    opacity: 1.0;
+}
+.staff input[type=submit]:hover, input[type=reset]:hover{
+    opacity: 0.8;
+}
+
+body {
+    background-color: #ddd;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

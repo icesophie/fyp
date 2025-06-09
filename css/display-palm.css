@@ -1,0 +1,85 @@
+.ti table{    
+    background-color:  rgb(236, 226, 113);
+    border-radius: 4px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    /*border: 1px solid black;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+.ti th{
+    border: 1px solid #ddd;
+    font-size: 18px;
+    padding: 10px;
+    background-color:  rgb(236, 226, 113);
+
+}
+.ti td{    
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.ti input[type=text]{
+    width: 70%;
+    padding: 5px;
+    margin: 2px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.ti input[type=submit]{
+    font-size: 12px;
+    border-radius: 40px;
+    background-color:rgb(128, 129, 131);
+    border: none;
+    color: white;
+    cursor: pointer;   
+    width: 20%; 
+    margin: 2px 10px;
+    padding: 5px 0px;
+    opacity: 1.0;
+}
+.ti input[type=submit]:hover{
+    opacity: 0.8;
+}
+
+.ti form{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color:  rgb(236, 226, 113);*/
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.sort form{
+    float: right;
+    width: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.writesch input[type=submit], [type=reset]{
+    width: 20%;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+}
+.register a:link, a:visited{
+    color:hsl(221, 94%, 28%);
+    text-decoration: none;
+}
+body {
+    background-color: #ddd;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

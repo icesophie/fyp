@@ -1,0 +1,83 @@
+.homepg{
+    /*background-image: linear-gradient(to left,pink,orange);*/
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    color: black;
+}
+.homepg section{
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+}
+.homepg article{
+    background-color: rgb(218, 221, 221);
+    text-align: center;
+    margin-bottom: 0;
+    float: right;
+    width: 100%;
+}
+
+.homepg p{
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+.homepg table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 20px;
+    border-spacing: 20px;
+    table-layout: fixed;
+    margin-top: -20px;
+}
+.homepg th{
+    background-color: rgba(255, 255, 0, 0.285);
+    font-family: 'Lucida Sans';
+    font-size: 18px;
+    padding: 20px;
+}
+
+.img{
+    text-align: center;
+    color: white;
+    opacity: 0.3;
+    width: 100%;
+    padding-bottom: 0px;
+    background-color: #ddd;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.homepg h2{
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ddd;
+    padding: 15px;
+    width: 97%;
+    float: left;
+}
+.homepg body {
+    background-color: #ddd;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.visimoto {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
